@@ -7,5 +7,6 @@ public class UserInput {
         String userName = myObj.nextLine(); //read user in put
         System.out.println("Username is: " + userName); //Output user input
     }
+    //Comment on comment
      
 }
