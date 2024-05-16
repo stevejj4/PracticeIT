@@ -3,7 +3,9 @@ public class arraysPractice {
         int[] intArray = new int[20];
         for(int i = 0; i<intArray.length; i++) {
             System.out.print(intArray[i] + " ");
+            
         }
+        System.out.println("The length of the arrays is" + " " + intArray.length);
 
 
     }
