@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Name {
+public class Name { 
     private String firstName;
     private String lastName;
     private char middleInitial;
@@ -14,7 +14,8 @@ public class Name {
     public Name() {
     }
 
-    // Parameterized constructor
+    // Parameterized constructor to access the instance variables
+    // use this keyword 
     public Name(String firstName, String lastName, char middleInitial) {
         this.firstName = firstName;
         this.lastName = lastName;
